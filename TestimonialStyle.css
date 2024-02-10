@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    background-color: #FAFAF9;
+}
+
+.left-side {
+    margin-top: 120px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+
+.right-side {
+    
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5C044;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.tittle {
+    font-family: 'Sora', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p, ul {
+    font-family: 'Sora', sans-serif;
+    color: #52525A;
+
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.first-text {
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.paragrafoCheck {
+    font-size: 14px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;    
+    color: #52525A;
+}
+
+.right-side {
+    width: 600px;
+    background-color: #FAFAF9;
+    border-radius: 15px;
+    margin-top: 120px;
+    margin-bottom: 15px;
+    margin-right: 70px;
+    
+    
+}
+
+.card-1 {
+    margin-left: 135px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.card-2 {
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.right-side .card-1, .card-2 {
+    background-color: #FFFFFF;
+    width: 300px;
+    padding: 25px 25px 25px 35px;
+    border-radius: 15px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.logostar {
+    display: flex;
+    align-items: center;
+}
+
+.logostar img {
+    margin: 0 8px 3px 0;
+}
+
+.logo {
+    width: 80px;
+}
+
+
